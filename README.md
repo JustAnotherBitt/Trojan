@@ -1,7 +1,7 @@
 # Python Trojan
 
 ## Overview
-This is a trojan written in Python that establishes a persistent connection with a remote server and listens for incoming commands.
+This is a basic trojan written in Python that establishes a persistent connection with a remote server, listens for commands, and executes them on the infected machine. It autoruns by copying itself to the Windows startup folder and continuously tries to reconnect if the connection is lost. The script uses threading to execute commands concurrently.
 
 ## Features
 - Persistent connection attempts to the attacker's server.
