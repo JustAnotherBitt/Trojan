@@ -7,7 +7,7 @@ This is a basic trojan written in Python that establishes a persistent connectio
 - Persistent connection attempts to the attacker's server.
 - Remote command execution.
 - Multi-threaded execution to handle commands asynchronously.
-- Low detectability by antivirus software when run
+- Low detectability by antivirus software when run.
 
 ## Usage
 1. Modify the IP (and, optionally, the port) of the code as needed.
