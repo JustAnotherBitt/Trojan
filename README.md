@@ -41,10 +41,10 @@ Once the connection is received, the attacker will have persistent access to the
 
 
 ## Security Notice
-Use this script only in controlled environments such as penetration testing labs, with explicit permission. Misuse of this tool for unauthorized access to systems is illegal and may result in severe consequences. **The risk is yours**.
+Use this script only in controlled environments such as penetration testing labs, with explicit permission. Misuse of this tool for unauthorized access to systems is illegal and may result in severe consequences. __**The risk is yours**__.
 
 ## Observations
-- The program has **low detectability** by antivirus software when first run. However, there is a possibility that the antivirus may detect suspicious activity during the creation of the executable. To minimize this risk, it is recommended to disable the antivirus and firewall while generating the executable. Additionally, over time, the antivirus may eventually recognize the executable as malicious.
+- The program has **low detectability** by antivirus software when first run. However, there is a possibility that the antivirus may detect suspicious activity during the creation of the executable. To minimize this risk, it is recommended to **disable the antivirus and firewall** while generating the executable. Additionally, over time, the antivirus may eventually recognize the executable as malicious.
 - There is a risk that the victim may find the trojan in the **Task Manager**. If that happens, there’s nothing to do except attempt the connection again.
 - Obviously, the victim must run the Trojan on **Windows**.
 
