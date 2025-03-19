@@ -40,7 +40,7 @@ Note: the file name can also be changed, as well as the icon.
 Once the connection is received, the attacker will have persistent access to the victim's machine, thanks to the `autorun()` function, which ensures that the program is executed automatically whenever the system is started.
 
 
-## Security Notice
+## ⚠ Disclaimer
 Use this script only in controlled environments such as penetration testing labs, with explicit permission. Misuse of this tool for unauthorized access to systems is illegal and may result in severe consequences. **The risk is yours**.
 
 ## Observations
